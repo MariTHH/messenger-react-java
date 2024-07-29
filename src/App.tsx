@@ -146,9 +146,9 @@ class App extends Component<Props, State> {
             <Route path="/admin" element={<BoardAdmin />} />
           </Routes>
         </div>
-      </div>
 
-    
+        { /*<AuthVerify logOut={this.logOut}/> */}
+      </div>
     );
   }
 }
